@@ -1,0 +1,34 @@
+
+---------------------------------------------1------------------------
+
+Comme de nombreux développeurs j'ai un talon d'Achille : la documentation. Je déteste rédiger une documentation, je ne sais d'ailleurs jamais par quel bout la prendre et je n'en suis jamais satisfaite. Cependant, force m'est de constater que, sans documentation sur laquelle s'appuyer si besoin, il s'avère difficile de savoir ce que l'on a sous les yeux. Voici les points qui me semblent importants pour disposer d'une bonne documentation.
+
+Une documentation ? Pour qui ? Pour quoi ?
+La première question que l'on peut se poser, lorsque l'on découvre ou lorsque l'on débute la programmation, c'est pour quoi est-ce que l'on a besoin d'une documentation ? Après tout, si l'on sait programmer et que l'on a accès au code source, c'est suffisant, non ?
+
+Éh bien non ! Ce n'est pas toujours suffisant, malheureusement. Et même si cela peut être réalisé, vous risquez de perdre énormément de temps à comprendre le code source, temps que vous auriez pu consacrer pour réaliser votre script ou votre programme, doc' incluse. En plus de cela, que ferez-vous si vous souhaitez utiliser une API donc le code est fermé ? Rien. Que pouic. Nada ! Alors certes, vous pourriez vous dire que vous allez chercher sur des fora ou une autre API dont le code source est ouvert, mais la réalité professionnelle n'est pas si simple. Vous n'aurez pas toujours le choix et à ce moment-là vous serez bien incapables d'en faire quoi que ce soit si vous n'avez pas une documentation associée à côté.
+
+Maintenant, prenons l'autre côté auquel on ne songe, parfois, qu'à la fin de son projet : l'utilisateur final. Si vous avez réalisé un programme complet et complexe, et que vous souhaitez qu'il soit utilisé par le plus grand nombre parce que, disons le tout de suite, votre logiciel il déchire, vous serez bien obligés de vous rendre compte qu'il faut rédiger une documentation associée ! Mais voilà, qu'est-ce que Monsieur et Madame Tartampion vont pouvoir faire avec votre bout de code ? Vous devez alors vous mettre à la place de vos utilisateurs.
+
+Je vais tâcher, dans les points suivants, de vous donner des pistes pour rédiger une bonne documentation pour les développeurs, d'un côté, et pour les utilisateurs, d'un autre. Je ne prétends bien sûr pas avoir la recette miracle, tout est une question d'expérience, de ressenti mais également de formation.
+
+La documentation pour le développeur
+Si vous avez développé un outil, que j'appelle clés en main, c'est-à-dire un outil qui va permettre à un développeur d'accélérer son temps de programmation en réutilisant des procédures déjà connues et reconnues dans votre domaine, il est important de lui indiquer comment fonctionne votre programme.
+
+En plus de connaître la raison d'être de l'outil et ce qu'il propose, le développeur doit pouvoir savoir rapidement quels sont :
+
+les paramètres ;
+les variables ;
+les fonctions ;
+les objets.
+
+
+
+
+--------------------------------------2-----------------------------------
+
+Docutils : avec son célèbre format ReStructuredText, plutôt pour Python
+SandCastle : outil de génération de documentation pour les langages .Net, édité par Microsoft
+Sphinx : outil de génération de documentation pour le langage Python, développé par la Python Software Foundation;
+Visdoc : outil de génération de documentation HTML pour le langage ActionScript 2 (AS2) & 3 (AS3) et Java (MAC uniquement)
+XMLDoc : outil open source de génération de documentation pour les langages .Net (en cours de développement)
